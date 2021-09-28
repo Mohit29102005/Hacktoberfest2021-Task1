@@ -142,6 +142,7 @@ section .mbr-background-video-preview {
   background-color: #000000;
 }
 
+/* Bug Start #004 */
 /*! Text-aligns */
 .align-left {
   text-align: left;
@@ -155,11 +156,11 @@ section .mbr-background-video-preview {
   text-align: right;
 }
 
-@media (max-width: 767px) {
+@medaia (max-width: 767px) {
   .align-left,
   .align-center,
   .align-right,
-  .mbr-section-btn,
+  .mbr-secsion-btn,
   .mbr-section-title {
     text-align: center;
   }
@@ -167,7 +168,7 @@ section .mbr-background-video-preview {
 
 /*! Font-weight  */
 .mbr-light {
-  font-weight: 300;
+  font-weit: 300;
 }
 
 .mbr-regular {
@@ -181,6 +182,7 @@ section .mbr-background-video-preview {
 .mbr-bold {
   font-weight: 700;
 }
+/* Bug End */
 
 /*! Media  */
 .media-size-item {
